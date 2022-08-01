@@ -1,0 +1,51 @@
+.card{
+    width: 1200px;
+    height: 530px;
+    background-image: url(./img/card_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    &__hero{
+        text-align: center;
+        padding-top: 184px;
+        margin-top: -350px;
+        z-index: 100;
+    }
+    &--title{
+        width: 780px;
+        height: 120px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &--parag{
+        width: 717px;
+        height: 56px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #fff;
+        padding-top: 22px;
+    }
+    &__numbers{
+        text-align: end;
+        margin-top: 140px;
+     
+    }
+    
+    &--span{   
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        padding: 4px 10px;
+        margin-left: 5px;
+        color: rgba(0, 0, 0, 0.1);
+       
+    } 
+    &--span:hover{
+            color: rgba(22, 93, 245, 0.8);
+        }
+}

@@ -1,0 +1,43 @@
+.sectioncard{
+    &__card{
+        width: 282px;
+        height: 420px;
+        border: none;
+        background-color: #fff;
+        padding: 16px;
+    }
+    &__hero{
+        display: flex;
+    }
+    &--span{
+        font-size: 14px;
+        line-height: 18px;
+        color: #165DF5;
+        padding: 16px;
+    }
+    &--title{
+        font-size: 18.662px;
+        line-height: 24px;
+        color: #000000;
+        padding: 8px 16px;
+    }
+    &--parag{
+        font-size: 14px;
+        line-height: 18px;
+        color: rgba(0, 0, 0, 0.4);
+        padding: 0px 16px 8px 16px;
+    }
+    &--link{
+        font-size: 14px;
+        line-height: 18px;
+        color: #165DF5;
+        padding-left: 150px;
+        align-items: center;
+        position: relative;
+    }
+    &--img{
+        position: absolute;
+        top: 3px;
+        right: -20px;
+    }
+}

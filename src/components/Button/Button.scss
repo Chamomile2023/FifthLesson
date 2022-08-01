@@ -1,0 +1,23 @@
+.button{
+    &__hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0;
+    }
+    &--btn{
+        padding: 10px 25px;
+        font-size: 16px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.8);
+        background: rgba(22, 93, 245, 0.18);;
+        border: 0.5px solid transparent;
+        border-radius: 12px;
+        &:hover{
+            color: 
+            #fff;
+            background-color: 
+            rgba(22, 93, 245, 1);
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.text{
+    margin-top: 100px;
+    text-align: center;
+    &--title{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #000000;
+    }
+    &--little{
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &--span{
+        color: rgba(22, 93, 245, 1);
+    }
+    &--parag{
+        width: 710px;
+        height: 52px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+        padding: 20px 0 66px 0;
+    }
+}

@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgba(22, 93, 245, 1);
+    &__hero{
+        display: flex;
+    }
+    &--list{
+        display: flex;
+        padding: 24px 0;
+        margin: 0;
+    }
+    &--item{
+        padding-left: 32px;
+    }
+    &__logotip{
+        padding-left: 420px;
+    }
+    &--link, &--logotib{
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}

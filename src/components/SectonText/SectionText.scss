@@ -1,0 +1,15 @@
+.sectiontext{
+    width: 100%;
+    background-color: rgba(22, 93, 245, 0.1);
+    margin: 120px 0;
+    &__hero{
+        text-align: center;
+        padding: 120px 0 80px 0;
+    }
+    &--parag{
+        width: 717px;
+    }
+    &--parag{
+        padding: 20px 0 25px 0;
+    }
+}

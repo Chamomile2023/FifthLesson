@@ -1,0 +1,28 @@
+.section{
+    &__first{
+        width: 666px;
+        height: 697px;
+        margin-left: (calc(-100px));
+    }
+    &__hero{
+        display: flex;
+    }
+    &__first{
+        padding-right: 90px;
+    }
+    &--parag{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 147.5%;
+        color: rgba(0, 0, 0, 0.4);
+    }
+    &__second{
+        width: 550px;
+        height: 600px;
+        overflow: scroll;
+        overflow-x:hidden;
+    }
+}
+.heading{
+    padding: 30px 0;
+}
